@@ -53,9 +53,9 @@ window.addTrees = function(count) {
 // Данные донатеров — добавляй сюда новых вручную
 const donors = [
   {
-    name:    "Джон Тейлер",
+    name:    "--------",
     comment: "Спасибо за поддержку!",
-    trees:   5,
+    trees:   -,
     date:    new Date("2026-02-16T19:45:12"),
     avatar:  "Group 6 (6).png"
   },
