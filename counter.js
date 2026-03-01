@@ -53,7 +53,7 @@ window.addTrees = function(count) {
 // Данные донатеров — добавляй сюда новых вручную
 const donors = [
   {
-    name:    "--------",
+    name:    "---------",
     comment: "Спасибо за поддержку!",
     trees:   -,
     date:    new Date("2026-02-16T19:45:12"),
