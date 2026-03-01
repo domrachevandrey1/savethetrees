@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Пожертвовать — Сохрани деревья</title>
+    <link rel="stylesheet" href="css.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .donate-page {
+            min-height: 100vh;
+            background: url('Group 8.png') center/cover no-repeat;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .donate-content {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 120px 20px 60px;
+        }
+
+        .donate-card {
+            background: white;
+            border-radius: 24px;
+            padding: 50px 60px;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+            max-width: 520px;
+            width: 100%;
+        }
+
+        .donate-icon {
+            font-size: 64px;
+            margin-bottom: 20px;
+        }
+
+        .donate-card h1 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 12px;
+        }
+
+        .donate-card p {
+            color: #666;
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 35px;
+        }
+
+        .btn-boosty {
+            display: inline-block;
+            background: #f15f2c;
+            color: white;
+            padding: 16px 50px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 700;
+            transition: background 0.3s, transform 0.2s;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+
+        .btn-boosty:hover {
+            background: #d44e1f;
+            transform: translateY(-2px);
+        }
+
+        .btn-back {
+            display: inline-block;
+            color: #999;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s;
+        }
+
+        .btn-back:hover {
+            color: #333;
+        }
+
+        .divider {
+            border: none;
+            border-top: 1px solid #eee;
+            margin: 25px 0;
+        }
+
+        .info-text {
+            font-size: 0.85rem;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body class="donate-page">
+
+    <nav class="navbar">
+<div class="logo">
+    <a href="html.html">
+        <img src="Group 6 (6).png" alt="Логотип">
+    </a>
+</div>
+        <div class="nav-actions">
+            <a href="html.html#leaderboard" class="nav-link">контакты</a>
+            <a href="html.html#leaderboard" class="nav-link">доска почета</a>
+            <a href="html.html#donation" class="btn-donate-top">пожертвовать</a>
+        </div>
+    </nav>
+
+    <div class="donate-content">
+        <div class="donate-card">
+            <img src="Group 11.png" alt="Логотип">
+            <h1>Помогите сохранить деревья!</h1>
+            <p>Каждое пожертвование помогает посадить новые деревья на планете Земля. Спасибо, что вы с нами! Подсчитка ведётся в ручную один раз в день в 21:30 по МСК.</p>
+
+            <a href="https://boosty.to/learningenvironment" target="_blank" class="btn-boosty">
+                Пожертвовать на Boosty
+            </a>
+
+            <hr class="divider">
+
+            <p class="info-text">Вы будете перенаправлены на страницу Boosty для безопасной оплаты</p>
+
+            <br>
+            <a href="html.html" class="btn-back">← Вернуться на главную</a>
+        </div>
+    </div>
+
+</body>
+</html>

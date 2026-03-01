@@ -1,0 +1,12 @@
+# ЮMoney
+YOOMONEY_WALLET= 4100118449044167        # Номер твоего кошелька ЮMoney
+YOOMONEY_SECRET=ВАШ_СЕКРЕТНЫЙ_КЛЮЧ    # Секрет для проверки webhook
+
+# Firebase Admin SDK (возьми из Firebase Console → Project Settings → Service Accounts)
+FIREBASE_PROJECT_ID=savethetrees-f2535
+FIREBASE_CLIENT_EMAIL=firebase-adminsdk-XXXXX@savethetrees-f2535.iam.gserviceaccount.com
+FIREBASE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\nXXXXX\n-----END PRIVATE KEY-----\n"
+FIREBASE_DATABASE_URL=https://savethetrees-f2535-default-rtdb.europe-west1.firebasedatabase.app
+
+# Адрес сайта (для редиректа после оплаты)
+SITE_URL=http://localhost:3000

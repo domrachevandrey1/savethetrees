@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Сохрани деревья</title>
+    <link rel="stylesheet" href="css.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="hero">
+    <nav class="navbar">
+<div class="logo">
+    <a href="html.html">
+        <img src="Group 6 (6).png" alt="Логотип">
+    </a>
+</div>
+        </div>
+        <div class="nav-actions">
+             <a href="#contacts" class="nav-link">контакты</a>
+            <a href="#leaderboard" class="nav-link">доска почета</a>
+            <a href="#donation" class="btn-donate-top">пожертвовать</a>
+        </div>
+    </nav>
+
+    <div class="hero-text">
+        <h1># СОХРАНИ ДЕРЕВЬЯ</h1>
+        <p class="subtitle">проект по сохранению деревьев на планете Земля</p>
+        <p class="status">сейчас работаем в Российской Федерации скоро по всему миру</p>
+        <div class="counter-box">загрузка...</div>
+    </div>
+</header>
+
+<section id="donation" class="donation-container">
+    <div class="container flex-row">
+
+        <div class="donation-card">
+            <div class="price-header">1 дерево = 40 рублей</div>
+
+            <div class="tree-grid">
+                <button class="tree-option">5 деревьев</button>
+                <button class="tree-option">10 деревьев</button>
+                <button class="tree-option">50 деревьев</button>
+                <button class="tree-option">100 деревьев</button>
+            </div>
+
+            <input type="text" class="custom-amount" placeholder="Введите количество...">
+
+            <a href="donate.html" class="btn-submit">Далее</a>
+        </div>
+
+        <div class="quote-box">
+            <div class="earth-icon">
+                <img src="Group 7.png" alt="Планета Земля">
+            </div>
+            <div class="quote-text">
+                <p>"Спасибо за поддержку проекта по сохранению деревьев!"</p>
+                <cite>Домрачев Андрей</cite>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="leaderboard" class="leaderboard-section">
+    <div class="leaderboard-header">
+        <h2 class="section-title">ДОСКА ПОЧЕТА</h2>
+
+        <div class="search-box">
+            <input type="text" placeholder="Поиск">
+            <span class="search-icon">🔍</span>
+        </div>
+
+        <div class="filter-group">
+            <button class="filter-btn active">Новые</button>
+            <button class="filter-btn">Топ</button>
+        </div>
+    </div>
+
+    <div class="leader-list">
+        <!-- карточки генерируются автоматически из counter.js -->
+    </div>
+</section>
+
+<footer id="contacts"></footer>
+<footer class="site-footer">
+    <div class="footer-container">
+        <div class="footer-col">
+            <h4>Партнеры</h4>
+            <a href="https://noocracy.site">noocracy.site</a>
+            <a href="https://synapse-social.ru/">synapse-social.ru</a>
+        </div>
+
+        <div class="footer-col contact-col">
+            <h4>Контакты</h4>
+            <p><img src="Group 12.png" alt="Логотип"> Почта: domrachev.andrey.12@gmail.com</p>
+            <p><img src="Vector.png" alt="Логотип"> Telegram: @DOMRACHEVANDREYD</p>
+            <p><img src="discord-icon-svgrepo-com 3.png" alt="Логотип">Discord: andreyko336</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Firebase CDN -->
+<script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
+<script src="counter.js"></script>
+
+</body>
+</html>
