@@ -1093,3 +1093,6 @@ header {
     align-items: center;
     gap: 10px;
 }
+body {
+  overflow-x: hidden;
+}
